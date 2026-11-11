@@ -105,8 +105,7 @@ Baseline comparisons (`BPC`, `FOFC`, `GIN`, `NOCADILAC`) are run with:
 python -m baselines.compare --dz 5 10 15 --n 500 1000 2000 5000 --methods BPC FOFC GIN NOCADILAC --runs 20
 ```
 
-The semi-synthetic REGED experiment (Section 6.2) and the Sachs case study
-(Section 6.6) are run with:
+The semi-synthetic REGED experiment and the Sachs case study are run with:
 
 ```bash
 # REGED: hide the target variable T (2 parents / 13 children / 6 spouses)
