@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "green_correct_mean": 0.2,
+    "green_reversed_mean": 1.2,
+    "green_missed_mean": 3.6,
+    "black_correct_mean": 0.0,
+    "black_reversed_mean": 0.0,
+    "black_missed_mean": 13.0,
+    "spurious_mean": 2.8,
+    "SHD_mean": 20.6,
+    "SHD_std": 1.0198039027185568,
+    "reps": 5,
+    "epochs": 300,
+    "lam_w": 0.1,
+    "thr": 0.3
+  },
+  "runs": [
+    {
+      "green": {
+        "correct": 0,
+        "reversed": 1,
+        "missed": 4
+      },
+      "black": {
+        "correct": 0,
+        "reversed": 0,
+        "missed": 13
+      },
+      "spurious": 1,
+      "SHD": 19
+    },
+    {
+      "green": {
+        "correct": 0,
+        "reversed": 1,
+        "missed": 4
+      },
+      "black": {
+        "correct": 0,
+        "reversed": 0,
+        "missed": 13
+      },
+      "spurious": 2,
+      "SHD": 20
+    },
+    {
+      "green": {
+        "correct": 1,
+        "reversed": 2,
+        "missed": 2
+      },
+      "black": {
+        "correct": 0,
+        "reversed": 0,
+        "missed": 13
+      },
+      "spurious": 4,
+      "SHD": 21
+    },
+    {
+      "green": {
+        "correct": 0,
+        "reversed": 1,
+        "missed": 4
+      },
+      "black": {
+        "correct": 0,
+        "reversed": 0,
+        "missed": 13
+      },
+      "spurious": 3,
+      "SHD": 21
+    },
+    {
+      "green": {
+        "correct": 0,
+        "reversed": 1,
+        "missed": 4
+      },
+      "black": {
+        "correct": 0,
+        "reversed": 0,
+        "missed": 13
+      },
+      "spurious": 4,
+      "SHD": 22
+    }
+  ]
+}

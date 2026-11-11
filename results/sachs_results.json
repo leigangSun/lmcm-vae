@@ -1,0 +1,226 @@
+{
+  "info": {
+    "X": [
+      "Mek",
+      "Pka"
+    ],
+    "Y": [
+      "PIP2",
+      "P38",
+      "Akt"
+    ],
+    "Z": "Erk",
+    "n": 853
+  },
+  "reps": 5,
+  "epochs": 150,
+  "methods": {
+    "OURS": {
+      "mean_correct": 5.0,
+      "mean_reversed": 0.0,
+      "mean_missed": 0.0,
+      "mean_SHD": 0.0,
+      "mean_f1": 1.0,
+      "runs": [
+        {
+          "seed": 42,
+          "confounded": {
+            "correct": 5,
+            "reversed": 0,
+            "missed": 0,
+            "spurious": 0,
+            "SHD": 0
+          },
+          "f1": 1.0,
+          "WI": 0.0
+        },
+        {
+          "seed": 142,
+          "confounded": {
+            "correct": 5,
+            "reversed": 0,
+            "missed": 0,
+            "spurious": 0,
+            "SHD": 0
+          },
+          "f1": 1.0,
+          "WI": 0.0
+        },
+        {
+          "seed": 242,
+          "confounded": {
+            "correct": 5,
+            "reversed": 0,
+            "missed": 0,
+            "spurious": 0,
+            "SHD": 0
+          },
+          "f1": 1.0,
+          "WI": 0.0
+        },
+        {
+          "seed": 342,
+          "confounded": {
+            "correct": 5,
+            "reversed": 0,
+            "missed": 0,
+            "spurious": 0,
+            "SHD": 0
+          },
+          "f1": 1.0,
+          "WI": 0.0
+        },
+        {
+          "seed": 442,
+          "confounded": {
+            "correct": 5,
+            "reversed": 0,
+            "missed": 0,
+            "spurious": 0,
+            "SHD": 0
+          },
+          "f1": 1.0,
+          "WI": 0.0
+        }
+      ]
+    },
+    "GIN": {
+      "mean_correct": 3.0,
+      "mean_reversed": 0.0,
+      "mean_missed": 2.0,
+      "mean_SHD": 2.0,
+      "mean_f1": 0.7499999999999999,
+      "runs": [
+        {
+          "seed": 42,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 142,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 242,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 342,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 442,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        }
+      ]
+    },
+    "NOCADILAC": {
+      "mean_correct": 3.0,
+      "mean_reversed": 0.0,
+      "mean_missed": 2.0,
+      "mean_SHD": 2.0,
+      "mean_f1": 0.7499999999999999,
+      "runs": [
+        {
+          "seed": 42,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 142,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 242,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 342,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        },
+        {
+          "seed": 442,
+          "confounded": {
+            "correct": 3,
+            "reversed": 0,
+            "missed": 2,
+            "spurious": 0,
+            "SHD": 2
+          },
+          "f1": 0.7499999999999999,
+          "WI": 0.0
+        }
+      ]
+    }
+  }
+}

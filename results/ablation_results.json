@@ -1,0 +1,26 @@
+{
+  "Full model (single_parent + sparse A)": {
+    "f1_mean": 0.7971114301126697,
+    "f1_std": 0.16485022742430197,
+    "WI_mean": 0.22399999999999998,
+    "WI_std": 0.168949696655543
+  },
+  "Unconstrained B + L1 sparse": {
+    "f1_mean": 0.6376417194472274,
+    "f1_std": 0.08336376091349813,
+    "WI_mean": 0.176,
+    "WI_std": 0.10537551897855593
+  },
+  "No sparse regularization on A": {
+    "f1_mean": 0.7907948349436669,
+    "f1_std": 0.1618804935684499,
+    "WI_mean": 0.22399999999999998,
+    "WI_std": 0.16942254867637896
+  },
+  "No structural constraint (unconstrained + no sparse)": {
+    "f1_mean": 0.6103102323625402,
+    "f1_std": 0.06805343315529858,
+    "WI_mean": 0.20600000000000002,
+    "WI_std": 0.11542963224406462
+  }
+}
